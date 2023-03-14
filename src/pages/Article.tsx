@@ -3,7 +3,7 @@ import { getList } from "../store/modules/article";
 import _ from 'lodash';
 import { useEffect } from "react";
 import type { AnyAction } from "@reduxjs/toolkit";
-import store from '../store';
+import store from '@/store';
 import { useNavigate } from 'react-router-dom';
 import { Button, InputNumber } from 'antd';
 
