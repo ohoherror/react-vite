@@ -6,7 +6,7 @@ export default function Article() {
     const navigate = useNavigate();
     const testRequest = async () => {
         try {
-            const res = await fetch(`${window?.globalConfig?.appServer}`);
+            const res = await fetch(`${window.globalConfig?.appServer}`);
             const data = await res.json();
             console.log(data);
         } catch (error) {
